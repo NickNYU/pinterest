@@ -1,0 +1,21 @@
+.InfoBarBasw li{
+	display:inline;
+	position:relative;
+}
+.InfoBarBase li:first-child a.active 
+{
+	box-shadow:-1px 0 3px rgba(0, 0, 0, 0.05) inset;
+}
+.InfoBarBase li:last-child a.active 
+{
+	box-shadow:1px 0 3px rgba(0, 0, 0, 0.05) inset;
+}
+.InfoBarBase li a ,.InfoBarBase li span 
+{
+	box-shadow:0 0 1px rgba(255, 255, 255, 0.9) inset;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+	color:#777777;
+	display:block;
+	font-weight:bold;
+	padding:1px 20px 0;
+}

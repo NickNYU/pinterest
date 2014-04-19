@@ -1,0 +1,124 @@
+.profile_container {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+	left: 50px;
+	right: 50px;
+}
+
+.profile {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    float: left;
+    margin: 0 15px 50px 30px;
+    padding: 10px 15px 0;
+    position: relative;
+    width: 252px;
+	border: .3px solid #717171;;
+	border-radius: 5px;
+}
+
+.profile .profile_name{
+	position: relative;
+	margin: 0 0 5px 1px;
+	font-weight: bold;
+	text-transform:capitalize;
+	color: #252519;
+}
+.profile.profile_name p{
+	font-size: 15px;
+	text-transform:capitalize;
+	color: #252519;
+}
+.profile .blank {
+	position:relative;
+	}
+.profile .holder {
+    position: relative;
+	float:left;
+}
+.profile .image {
+    background-color: #F2F0F0;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    text-decoration: none;
+	border-radius:3px;
+}
+.profile .image img {
+	border-radius:5px;
+    width: 122px;
+    height: 122px;
+    opacity: 1;
+	border: .3px solid #717171;
+}
+.profile .little_container{
+	background-color: #DEDEDE;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    float: right;
+    margin: 0 1px 1px 1px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    width: 122px;
+	height: 122px;
+	display: inline-block;
+}
+.nav_profile {
+    float: right;
+    position: relative;
+	display: inline-block;
+}
+.nav_profile li {
+    display: block;
+    font-size: 13px;
+    position: relative;
+}
+.profile .little{
+	margin-right: 2px;
+	margin-left: 0px;
+	padding-right:1px;
+	padding-left: 0px;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	width: 50px;
+    height: 50px;
+}
+
+.profile .little img{
+	border-radius:3px;
+	width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+.profile.edit {
+	position: relative;
+}
+.edit_button{
+    background-color: #F0EDED;
+    background-image: -webkit-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED);
+    background-image: -moz-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED);
+    background-image: linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED);
+    border: 1px solid #BBBBBB;
+    border-radius: 6px 6px 6px 6px;
+    color: #524D4D;
+    cursor: pointer;
+    display: inline-block;
+    float: center;
+    font-weight: bold;
+    line-height: 1em;
+    margin-right: 3em;
+	margin-bottom: .5em;
+	margin-top: .5em;
+    padding: 5px 9px;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+	width: 250px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.edit_button:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 0 1px rgba(140, 126, 126, 0.5), 0 1px 2px rgba(35, 24, 24, 0.75);
+}

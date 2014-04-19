@@ -1,0 +1,31 @@
+.main {
+    
+    width: 1200px;
+    height: 35px;
+    margin: 1px auto;
+}
+.panel {
+    background-color: #787878 ;
+    height: 34px;
+    padding: 6px;
+    
+}
+.panel a#pin, .panel a#board {
+    border: 2px solid #aaa;
+    color: #fff;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+a#pin:hover, a#board:hover {
+    border-color: #eee;
+}
